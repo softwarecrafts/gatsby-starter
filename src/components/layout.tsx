@@ -1,10 +1,10 @@
-import React from "react"
-
+import * as React from "react"
+import { PageProps } from "gatsby"
 import './layout.css'
 
 
 
-const Layout = (props) => {
+const Layout: React.FC<PageProps> = (props:PageProps) => {
     return (
         <>
             <header className="font-serif text-3xl">This is my starter</header>
